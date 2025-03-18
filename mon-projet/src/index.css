@@ -1,0 +1,19 @@
+.hotel-list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.hotel-card {
+  border: 1px solid #E8E9E9;
+  padding: 10px;
+  text-align: center;
+}
+
+button {
+  background-color: #F01702;
+  color: white;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+}

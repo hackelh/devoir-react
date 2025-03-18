@@ -1,0 +1,65 @@
+/* Conteneur du formulaire */
+.contact-form-container {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Titre du formulaire */
+  .contact-form-container h1 {
+    text-align: center;
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  /* Champ de saisie */
+  .contact-form-container input,
+  .contact-form-container textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    box-sizing: border-box; /* Pour inclure le padding dans la largeur */
+  }
+  
+  /* Lien de l'erreur */
+  .error {
+    color: red;
+    font-size: 12px;
+    margin-top: -10px;
+    margin-bottom: 10px;
+  }
+  
+  /* Bouton de soumission */
+  .contact-form-container button {
+    width: 100%;
+    padding: 12px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  /* Effet de survol du bouton */
+  .contact-form-container button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Message de confirmation après soumission */
+  .contact-form-container p {
+    text-align: center;
+    font-size: 18px;
+    color: #4CAF50;
+    margin-top: 20px;
+  }
+  

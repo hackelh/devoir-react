@@ -1,0 +1,27 @@
+
+.banner {
+    background-color:#a56837;
+    background-image: url('path-to-your-image.jpg'); 
+    background-size: cover;
+    background-position: center;
+    padding: 100px 20px;
+    text-align: center;
+    color: white;
+  }
+  
+  .banner-text {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .banner h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .banner p {
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+  }
+  
